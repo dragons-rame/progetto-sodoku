@@ -16,7 +16,7 @@ public class SudokuGame extends JFrame {
 
     public SudokuGame() {
         // Impostazioni base della finestra
-        setTitle("Progetto Sudoku - ITIS");
+        setTitle("Progetto Sudoku");
         setSize(600, 700);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
