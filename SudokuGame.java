@@ -25,7 +25,7 @@ public class SudokuGame extends JFrame {
         JPanel pannelloGriglia = new JPanel(new GridLayout(9, 9));
         pannelloGriglia.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         
-        // Metodi per creare i numeri e "bucare" la griglia
+        // Metodi per creare i numeri e  la griglia
         generaSoluzioneCasuale();
         preparaLivello();
 
